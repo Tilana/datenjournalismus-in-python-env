@@ -3,6 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - pandas
   - rise
-  - nbgitpuller
+  - pip
+  - pip:
+    - nbgitpuller
+    - pandas
